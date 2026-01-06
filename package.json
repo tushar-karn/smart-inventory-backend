@@ -1,0 +1,30 @@
+{
+  "name": "smart-inventory-backend",
+  "version": "1.0.0",
+  "description": "smart Inventory Reservation System",
+  "homepage": "https://github.com/tushar-karn/smart-inventory-backend#readme",
+  "bugs": {
+    "url": "https://github.com/tushar-karn/smart-inventory-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-karn/smart-inventory-backend.git"
+  },
+  "license": "ISC",
+  "author": "Tushar Karn",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
